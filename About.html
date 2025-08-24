@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About - K. Adithya Sri Krishna</title>
+  <link rel="icon" href="images/photo.jpg">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container inner">
+      <div class="brand">
+        <div class="avatar"><img src="images/photo.jpg" alt="Adithya"></div>
+        <span>K. Adithya Sri Krishna</span>
+      </div>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="card">
+      <p>With a strong passion for Full Stack Development, I love creating websites and applications from start to finish. I enjoy learning new technologies and turning ideas into real projects.</p>
+    </div>
+
+    <h2 class="section-title">Education</h2>
+    <div class="grid" style="grid-template-columns:1fr 1fr">
+      <div class="card">
+        <strong>Diploma</strong><br>
+        <span>Smt. B. Seetha Polytechnic</span><br>
+        <span>2024 – Present</span>
+      </div>
+      <div class="card">
+        <strong>School</strong><br>
+        <span>Z.P. High School</span><br>
+        <span>2024 – 73%</span>
+      </div>
+    </div>
+
+    <h2 class="section-title">Skills</h2>
+    <div class="card">
+      <ul>
+        <li>Programming: C</li>
+        <li>Database: PL/SQL</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="footer">
+    © <span id="year"></span> K. Adithya Sri Krishna. All rights reserved.
+  </footer>
+  <script src="assets/script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

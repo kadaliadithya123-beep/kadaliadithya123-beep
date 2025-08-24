@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home - K. Adithya Sri Krishna</title>
+  <meta name="description" content="Portfolio of K. Adithya Sri Krishna">
+  <link rel="icon" href="images/photo.jpg">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container inner">
+      <div class="brand">
+        <div class="avatar"><img src="images/photo.jpg" alt="Adithya"></div>
+        <span>K. Adithya Sri Krishna</span>
+      </div>
+      <div class="menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <section class="hero">
+      <div>
+        <h1>Hi, I'm K. Adithya Sri Krishna 👋</h1>
+        <p>With a strong passion for Full Stack Development, I love creating websites and applications from start to finish. I enjoy learning new technologies and turning ideas into real projects.</p>
+        <div class="tags">
+          <span class="tag">C Programming</span>
+          <span class="tag">PL/SQL</span>
+          <span class="tag">Web Development (Aspiring)</span>
+        </div>
+        <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap">
+          <a class="btn" href="projects.html">View Projects</a>
+          <a class="btn ghost" href="about.html">About Me</a>
+        </div>
+      </div>
+      <div class="photo"><img src="images/photo.jpg" alt="Passport Photo" style="width:100%;display:block"></div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    © <span id="year"></span> K. Adithya Sri Krishna. All rights reserved.
+  </footer>
+  <script src="assets/script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
